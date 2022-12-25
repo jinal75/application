@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navi_dashboar"
+            android:icon="@drawable/ic_dashboard_white"
+            android:title="Dashboard"
+            android:checkable="true"
+            />
+        <item
+            android:id="@+id/navi_wishlist"
+            android:icon="@drawable/wish"
+            android:title="Wishlist" />
+        <item
+            android:id="@+id/navi_message"
+            android:icon="@drawable/ic_message"
+            android:title="Message"
+            />
+        <item
+            android:id="@+id/navi_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile"/>
+    </group>
+
+
+
+
+
+
+</menu>
+
+
+

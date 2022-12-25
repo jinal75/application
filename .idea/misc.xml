@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.221" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/ic_dashboard_white.xml" value="0.221" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/ic_gradientborder.xml" value="0.2125" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/ic_send.xml" value="0.221" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/ic_wishlist.xml" value="0.1" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/item_border_rounded.xml" value="0.199" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/item_button_back.xml" value="0.2125" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/item_button_background.xml" value="0.221" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/item_buttondrawer_background.xml" value="0.199" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/item_byheart_button.xml" value="0.2125" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/item_correct_back.xml" value="0.2125" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/item_dah_free_border.xml" value="0.2125" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/item_dash_border.xml" value="0.2125" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/item_free_check.xml" value="0.2125" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/item_image_background.xml" value="0.2125" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/item_message_back.xml" value="0.199" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/item_message_border.xml" value="0.199" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/item_message_roundcorner.xml" value="0.199" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/item_paid_check.xml" value="0.2125" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/item_palncard_back.xml" value="0.199" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/item_plancardpink_back.xml" value="0.199" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/item_plancardpurple_back.xml" value="0.199" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/item_plancheck_back.xml" value="0.199" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/item_pre_dash.xml" value="0.221" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/item_premium_check.xml" value="0.221" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/item_radio_back.xml" value="0.2125" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/item_radio_whiteback.xml" value="0.221" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/item_signincard_background.xml" value="0.199" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/item_wish_background.xml" value="0.199" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/drawable/side_nav_bar.xml" value="0.2125" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout-v23/fragment_create_group.xml" value="0.2609375" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_bottom.xml" value="0.2609375" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.22" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_buy_hearts.xml" value="0.33" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_create_group.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_custom_navigation.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_dash_board.xml" value="0.4282051282051282" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_details.xml" value="0.25" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_edit_text_different.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_free_plan_details.xml" value="0.25" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_group_details.xml" value="0.2609375" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_hobby.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_language.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_location.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_main2.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_message.xml" value="0.22" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_navigation.xml" value="0.18" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_navigation_drawer.xml" value="0.21" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_paid_plan_details.xml" value="0.22" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_plan.xml" value="0.5" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_primium_plan_detais.xml" value="0.23471615720524017" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_profile.xml" value="0.2609375" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_sing_up.xml" value="0.1" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_sing_up_birth_day.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_sing_up_email.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_sing_up_name.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_sing_up_password.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_singin.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/activity_up_date_profile.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/app_bar_navigation_drawer.xml" value="0.2609375" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/appbarfreeplan.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/appbarlayout.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/appbarlayoutp.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/appbarlayoutplan.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/appbarpaid.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/appbarpremium.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/apphobytoolbar.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/btn_background.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/content_navigation_drawer.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/details.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/fragment_about_us.xml" value="0.2609375" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/fragment_contact_us.xml" value="0.2609375" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/fragment_create_group.xml" value="0.2609375" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/fragment_dash_boar.xml" value="0.2609375" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/fragment_dashboard.xml" value="0.2609375" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/fragment_faqs.xml" value="0.2609375" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/fragment_group.xml" value="0.2609375" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/fragment_home.xml" value="0.2609375" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/fragment_logout.xml" value="0.2609375" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/fragment_message.xml" value="0.2609375" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/fragment_notifications.xml" value="0.2609375" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/fragment_profile.xml" value="0.2609375" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/fragment_settings.xml" value="0.2609375" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/fragment_wish.xml" value="0.2609375" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/item_byhearts_toolbar.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/item_dashoard_adapter.xml" value="0.2609375" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/item_details_bottom.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/item_drawer_toolbar.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/item_group_adapter.xml" value="0.2609375" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/item_grp_adapter.xml" value="0.67" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/item_header_drawer.xml" value="0.25" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/item_message_adapter.xml" value="0.48686030428769017" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/item_message_corner.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/item_message_layout.xml" value="0.22" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/item_toolbar_message.xml" value="0.25" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/item_toolbar_message_1.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/item_toolbar_messageactivity.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/item_toolbar_profile.xml" value="0.33" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/item_toolbar_wish.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/item_wishlist_adapter.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/item_wishlist_design.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/layout/nav_header_navigation_drawer.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/menu/activity_navigation_drawer_drawer.xml" value="0.2609375" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2609375" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/menu/bottom_nev_menu.xml" value="0.2609375" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/menu/item_drawer.xml" value="0.21419410004275333" />
+        <entry key="..\:/Android Projects/MyApplication2/app/src/main/res/menu/navigation_drawer.xml" value="0.2609375" />
+        <entry key="..\:/MyApplication2/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.2609375" />
+        <entry key="..\:/MyApplication2/app/src/main/res/layout/activity_singin.xml" value="0.2609375" />
+        <entry key="..\:/MyApplication2/app/src/main/res/menu/activity_navigation_drawer_drawer.xml" value="0.2609375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

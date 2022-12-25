@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/drawerlayout"
+    android:background="@color/white">
+
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+
+                <androidx.core.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fillViewport="true">
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="10dp">
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="@drawable/side_nav_bar"
+                            android:orientation="vertical">
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="-40dp"
+                            android:backgroundTint="@color/white"
+                            android:background="@drawable/ic_gradientborder"
+                            android:padding="3dp"
+                            android:src="@drawable/profileimage"
+                            android:id="@+id/profileimg"/>
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:text="@string/lbl_katharina_mazepa"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:id="@+id/txtprofilename"/>
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+
+                            android:layout_marginTop="5dp"
+                            android:text="@string/lbl_kathmazepa"
+                            android:textSize="16sp"
+                            android:id="@+id/txtneckname"/>
+
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginTop="35dp"
+                            android:layout_marginEnd="30dp"
+                            android:orientation="horizontal">
+
+                            <androidx.appcompat.widget.LinearLayoutCompat
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:padding="5dp">
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="@string/lbl_866"
+                                    android:textColor="@color/black"
+                                    android:id="@+id/txtgroup"/>
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="5dp"
+                                    android:text="@string/lbl_groups"
+                                    android:textAllCaps="true"
+                                    android:textSize="10sp"
+
+                                    />
+                            </androidx.appcompat.widget.LinearLayoutCompat>
+
+                            <View
+                                android:layout_width="1dp"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@color/menuitemcolor"
+                                android:padding="20dp" />
+
+                            <androidx.appcompat.widget.LinearLayoutCompat
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10sp"
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:padding="5dp">
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="@string/lbl_123k"
+                                    android:textColor="@color/black"
+                                    android:id="@+id/txtfollwers"/>
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="5dp"
+                                    android:text="@string/lbl_followers"
+                                    android:textAllCaps="true"
+                                    android:textSize="10sp"
+
+                                    tools:ignore="SmallSp" />
+                            </androidx.appcompat.widget.LinearLayoutCompat>
+
+                            <View
+                                android:layout_width="1dp"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="20dp"
+                                android:background="@color/menuitemcolor"
+                                android:padding="20dp" />
+
+                            <androidx.appcompat.widget.LinearLayoutCompat
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:padding="5dp">
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="@string/lbl_880"
+                                    android:textColor="@color/black"
+                                    android:id="@+id/txtfollowing"/>
+
+                                <androidx.appcompat.widget.AppCompatTextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="5dp"
+                                    android:text="@string/lbl_following"
+                                    android:textAllCaps="true"
+                                    android:textSize="10sp"
+
+                                    tools:ignore="SmallSp" />
+                            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="20dp"
+                            android:drawableStart="@drawable/ic_dashboard_drawer"
+                            android:drawablePadding="20dp"
+                            android:drawableTint="@color/white"
+                            android:fontFamily="@font/sfmedium"
+                            android:gravity="clip_vertical"
+                            android:padding="10dp"
+                            android:text="@string/lbl_dashboard"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:drawableTint="@color/black"
+                            android:id="@+id/txtdashboard"
+
+                            tools:targetApi="m" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="20dp"
+                            android:drawableStart="@drawable/ic_wishlist_drawer"
+                            android:drawablePadding="20dp"
+                            android:drawableTint="@color/black"
+                            android:fontFamily="@font/sfmedium"
+                            android:padding="10dp"
+                            android:text="@string/lbl_wishlist"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:id="@+id/txtwishlist"
+
+                            tools:targetApi="m" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="20dp"
+                            android:drawableStart="@drawable/ic_message_drawer"
+                            android:drawablePadding="10dp"
+                            android:drawableTint="@color/black"
+                            android:fontFamily="@font/sfmedium"
+                            android:padding="10dp"
+                            android:text="@string/lbl_message"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:id="@+id/txtmessage"
+                            tools:targetApi="m" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="20dp"
+                            android:drawableStart="@drawable/ic_profile_drawer"
+                            android:drawablePadding="10dp"
+                            android:drawableTint="@color/black"
+                            android:fontFamily="@font/sfmedium"
+                            android:padding="10dp"
+                            android:text="@string/lbl_profile"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:id="@+id/txtprofile"
+                            tools:targetApi="m" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/text"
+                            android:layout_marginTop="10dp"/>
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="20dp"
+                            android:fontFamily="@font/regular"
+                            android:padding="10dp"
+                            android:text="@string/lbl_plans"
+                            android:textColor="@color/menuitemcolor"
+                            android:id="@+id/txtplan"
+
+                            android:textSize="16sp" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="20dp"
+                            android:fontFamily="@font/regular"
+                            android:padding="10dp"
+                            android:text="@string/lbl_settings"
+                            android:textColor="@color/menuitemcolor"
+                            android:id="@+id/txtsetting"
+
+                            android:textSize="16sp" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="20dp"
+                            android:fontFamily="@font/regular"
+                            android:padding="10dp"
+                            android:text="@string/lbl_about_us"
+                            android:id="@+id/txtaboutus"
+
+                            android:textColor="@color/menuitemcolor"
+                            android:textSize="16sp" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="20dp"
+                            android:fontFamily="@font/regular"
+                            android:padding="10dp"
+                            android:text="@string/lbl_contact_us"
+                            android:textColor="@color/menuitemcolor"
+                            android:textSize="16sp"
+                            android:id="@+id/txtcontactus"/>
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="20dp"
+                            android:fontFamily="@font/regular"
+                            android:padding="10dp"
+                            android:text="@string/lbl_faq_s"
+                            android:textColor="@color/menuitemcolor"
+                            android:textSize="16sp"
+                            android:id="@+id/txtfaqs"/>
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </androidx.core.widget.NestedScrollView>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/pink"
+        android:fontFamily="@font/sfmedium"
+        android:insetLeft="0dp"
+        android:insetTop="0dp"
+        android:insetRight="0dp"
+        android:insetBottom="0dp"
+        android:text="@string/lbl_logout"
+        android:layout_gravity="bottom"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:cornerRadius="0dp"
+        android:id="@+id/btnlogout"/>
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,208 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">DesignPracticeApplication</string>
+    <string name="upload_video_or_record_video_max_15_sec">Upload video or record video (max 15 sec)</string>
+    <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_bottom">BottomActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="lbl_description">I love any movie where they spontaneously break out into song, can only eat three pieces of pizza (every time I go for four I regter it), and probably work too much!</string>
+    <string name="lbl_msg1" tools:ignore="'">Hi Kathrina! It\'s been a long time!</string>
+    <string name="lbl_msg2">Hi Ashleigh Rodriguz!</string>
+    <string name="lbl_msg3" tools:ignore="'">You are right, it\'s been a really long time! I think the last time we saw was at party</string>
+    <string name="lbl_msg4">Yeah! I remember now! The stream launch party</string>
+    <string name="lbl_msg5">That reminds me that I wanted to ask you something</string>
+    <string name="lbl_msg6">Can you stream the new video?</string>
+    <string name="lbl_msg7">Yesterday at 8:36PM</string>
+    <string name="lbl_msg8">Yesterday at 8:37PM</string>
+    <string name="lbl_msg9">Yesterday at 8:39PM</string>
+    <string name="lbl_cantonese">Cantonese</string>
+    <string name="lbl_english">English</string>
+    <string name="lbl_putonghua">Putonghua</string>
+    <string name="lbl_update">Update</string>
+    <string name="lbl_all">All</string>
+    <string name="lbl_hong_kong_sar">Hong Kong SAR</string>
+    <string name="lbl_hong_kong_island">Hong Kong Island 香港</string>
+    <string name="lbl_kowloon">Kowloon 九龍</string>
+    <string name="lbl_new_territories">New Territories 新界</string>
+    <string name="lbl_islands">Islands 離島</string>
+    <string name="lbl_macau">Macau</string>
+    <string name="lbl_taiwan">TaiWan</string>
+    <string name="lbl_singapore">Singapore</string>
+    <string name="lbl_like_other_member_or_post">Like other member or post</string>
+    <string name="lbl_1_like_every_2_hours">1 like every 2 hours</string>
+    <string name="lbl_follow">Follow</string>
+    <string name="lbl_follow_5_persons">Follow 5 persons</string>
+    <string name="lbl_send_photo_and_video">Send photo and video</string>
+    <string name="lbl_1_every_2_min_video_lt_30sec"><![CDATA[1 every 2 min, video < 30sec]]></string>
+
+    <string name="lbl_x1_2_like_count">x1.2 like count</string>
+    <string name="lbl_who_like_you">Who like you</string>
+    <string name="lbl_show_number_last_5_like_personal_information">Show number, last 5 like personal information</string>
+    <string name="lbl_start_chat_group">Start chat group</string>
+    <string name="lbl_only_5_in_any_moment">Only 5 in any moment</string>
+    <string name="lbl_participate_in_chat_group">Participate in chat group</string>
+    <string name="lbl_avatar">Avatar</string>
+
+    <string name="lbl_address">Address</string>
+    <string name="lbl_mr_mrs_miss_special_address_for_once">Mr, Mrs, Miss, special address for once</string>
+    <string name="lbl_buy_hearts">+Buy hearts</string>
+    <string name="lbl_upgrade_plan">Upgrade plan</string>
+    <string name="lbl_15_in_any_moment">15 in any moment</string>
+    <string name="lbl_free_members">Free Members</string>
+    <string name="lbl_correct">✓</string>
+    <string name="lbl_limited_access_features">Limited access features</string>
+    <string name="lbl_0_hearts">0 / hearts</string>
+    <string name="lbl_details">Details</string>
+    <string name="lbl_paid_members">Paid Members</string>
+    <string name="lbl_unlock_our_most_exclusive_features">Unlock our most exclusive features</string>
+    <string name="lbl_50">50 /</string>
+
+    <string name="lbl_upgrade">Upgrade</string>
+    <string name="lbl_premium_members">Premium Members</string>
+    <string name="lbl_unlimited_likes_amp_more"><![CDATA[Unlimited Likes & more !]]></string>
+    <string name="lbl_hearts_every_30_days">hearts every 30 days</string>
+    <string name="lbl_300">300/</string>
+    <string name="lbl_unlimited">Unlimited</string>
+    <string name="lbl_follow_15_persons">Follow 15 persons</string>
+    <string name="lbl_search_by_others">Search by others</string>
+    <string name="lbl_x2_like_count">x2 like count</string>
+    <string name="lbl_unlimited_video_lt_30sec"><![CDATA[Unlimited video < 30sec]]></string>
+    <string name="lbl_know_who_like_you">Know who like you</string>
+    <string name="lbl_25_in_any_moment">25 in any moment</string>
+
+    <string name="lbl_can_upload_show_when_click_by_user">Can upload, show when click by user</string>
+    <string name="lbl_special_address_can_change">Special address, can change</string>
+    <string name="lbl_upload_user_avatar">Upload user avatar</string>
+    <string name="lbl_paid_member_can_only_upload_photo">Paid member can only upload photo</string>
+    <string name="lbl_name">Name</string>
+    <string name="lbl_enter_your_name">enter your name</string>
+    <string name="lbl_hobbies">Hobbies</string>
+    <string name="lbl_select_your_hobbies">select your hobbies</string>
+    <string name="lbl_gender">Gender</string>
+    <string name="lbl_age">Age</string>
+    <string name="lbl_lt_18"><![CDATA[<=18]]></string>
+    <string name="lbl_18_28">18–28</string>
+    <string name="lbl_29_39">29–39</string>
+    <string name="lbl_40_50">40–50</string>
+    <string name="lbl_gt_51"><![CDATA[>=51]]></string>
+    <string name="lbl_location">Location</string>
+    <string name="lbl_select_your_location">select your location</string>
+    <string name="lbl_language">Language</string>
+    <string name="lbl_select_your_language">select your language</string>
+    <string name="lbl_enter_your_word_here">enter your word here....</string>
+    <string name="lbl_0_40">0 / 40</string>
+    <string name="lbl_self_description">Self Description</string>
+    <string name="lbl_upload_video_or_record_video_max_15_sec">Upload video or record video (max 15 sec)</string>
+    <string name="lbl_update_profile">Update profile</string>
+    <string name="lbl_hey_you_re">Hey! You\'re…</string>
+    <string name="lbl_male">Male</string>
+    <string name="lbl_female">Female</string>
+    <string name="lbl_other">Other</string>
+    <string name="lbl_already_have_an_account">Already have an account?</string>
+    <string name="lbl_sign_in">Sign in</string>
+    <string name="lbl_hey_sabrina_calvo_when_s_your_birthday">Hey, Sabrina Calvo! When\'s your birthday?</string>
+    <string name="lbl_we_need_this_to_sure_you_re_over_18">We need this to sure you\'re over 18</string>
+    <string name="lbl_day">Day</string>
+    <string name="lbl_month">Month</string>
+    <string name="lbl_year">Year</string>
+    <string name="lbl__">___ ___</string>
+    <string name="lbl_____">___ ___ ___ ___</string>
+    <string name="lbl_continue">Continue</string>
+    <string name="lbl_sign_up_with_email">Sign up with email</string>
+    <string name="lbl_enter_your_email_address">enter your email address</string>
+    <string name="lbl_what_is_your_name">What is Your Name?</string>
+    <string name="lbl_this_is_how_you_ll_appear_on_voice">This is how you\'ll appear on VOICE</string>
+    <string name="lbl_almost_there_just_set_a_password">Almost there! Just set a password</string>
+    <string name="lbl_enter_your_password">enter your password</string>
+    <string name="lbl_enter_your_confirm_password">enter your confirm password</string>
+    <string name="lbl_let_s_go">Let\'s go</string>
+    <string name="lbl_login_to_voice">Login to Voice</string>
+    <string name="lbl_email_address">Email address</string>
+    <string name="lbl_password">Password</string>
+    <string name="lbl_remember_me">Remember Me</string>
+    <string name="lbl_forgot_password">Forgot Password?</string>
+    <string name="lbl_don_t_have_an_account">Don\'t have an account?</string>
+    <string name="lbl_sign_up">Sign up</string>
+    <string name="lbl_profile">Profile</string>
+    <string name="lbl_voice">Voice</string>
+    <string name="lbl_free_plan_details">Free Plan Details</string>
+    <string name="lbl_plan">Plan</string>
+
+    <string name="lbl_logout">LogOut</string>
+    <string name="lbl_jenifer_jane">Jenifer Jane</string>
+    <string name="lbl_female_22">Female, 22</string>
+
+    <string name="lbl_santa_maria_usa">Santa Maria USA</string>
+
+    <string name="lbl_travel">Travel</string>
+    <string name="lbl_dance">Dance</string>
+    <string name="lbl_fitness">Fitness</string>
+    <string name="lbl_reading">Reading</string>
+    <string name="lbl_photography">Photography</string>
+    <string name="lbl_music">Music</string>
+    <string name="lbl_movie">Movie</string>
+
+    <string name="lbl_cantonese_english">Cantonese, English</string>
+    <string name="lbl_group_name">Group Name</string>
+    <string name="lbl_interests">Interests</string>
+    <string name="lbl_select_your_group_interests">select your group interests</string>
+    <string name="lbl_descriptions">Description</string>
+
+    <string name="lbl_create_group">Create group</string>
+    <string name="lbl_search">search</string>
+    <string name="lbl_users">Users</string>
+    <string name="lbl_see_all">See all</string>
+    <string name="lbl_lindsey_pelas">Lindsey Pelas</string>
+    <string name="lbl_allentown_usa">Allentown USA</string>
+    <string name="lbl_female_24">Female, 24</string>
+    <string name="lbl_tyler_kenyon">Tyler Kenyon</string>
+    <string name="lbl_male_28">Male, 28</string>
+    <string name="lbl_groups">Groups</string>
+
+    <string name="lbl_join">Join</string>
+    <string name="lbl_dashboard">Dashboard</string>
+    <string name="lbl_katharina_mazepa">Katharina Mazepa</string>
+    <string name="lbl_kathmazepa">kathmazepa</string>
+    <string name="lbl_866">866</string>
+    <string name="lbl_123k">123k</string>
+    <string name="lbl_followers">followers</string>
+    <string name="lbl_880">880</string>
+    <string name="lbl_following">following</string>
+    <string name="lbl_wishlist">Wishlist</string>
+    <string name="lbl_message">Message</string>
+    <string name="lbl_plans">Plans</string>
+    <string name="lbl_settings">Settings</string>
+    <string name="lbl_about_us">About Us</string>
+    <string name="lbl_contact_us">Contact Us</string>
+    <string name="lbl_faq_s">Faq\'s</string>
+    <string name="lbl_ashleigh_rodriguz">Ashleigh Rodriguz</string>
+    <string name="lbl_great_then_we_ll_meet_with_them">Great! Then we\'ll meet with them...</string>
+    <string name="lbl__2_hours_ago">2 hours ago</string>
+    <string name="lbl_10">10</string>
+    <string name="lbl_write_a_message">Write a message</string>
+
+    <string name="lbl_online">Online</string>
+    <string name="dialogTitle">Are You Sure?</string>
+    <string name="dialogMessage">Do You Want To sure Logout</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--    <string name="hello_blank_fragment">Hello blank fragment</string>-->
+    <!--    <string name="title_activity_bottom">BottomActivity</string>-->
+    <!--    <string name="title_activity_main3">MainActivity3</string>-->
+    <!--    <string name="lbl_description">I love any movie where they spontaneously break out into song, can only eat three pieces of pizza (every time I go for four I regter it), and probably work too much!</string>-->
+    <!--    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>-->
+    <!--    <string name="navigation_drawer_open">Open navigation drawer</string>-->
+    <!--    <string name="navigation_drawer_close">Close navigation drawer</string>-->
+    <!--    <string name="nav_header_title">Android Studio</string>-->
+    <!--    <string name="nav_header_subtitle">android.studio@android.com</string>-->
+    <!--    <string name="nav_header_desc">Navigation header</string>-->
+    <!--    <string name="action_settings">Settings</string>-->
+
+    <!--    <string name="menu_home">Home</string>-->
+    <!--    <string name="menu_gallery">Gallery</string>-->
+    <!--    <string name="menu_slideshow">Slideshow</string>-->
+
+</resources>

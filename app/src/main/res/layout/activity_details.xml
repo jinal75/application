@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".DetailsActivity">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="0dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/imgdetails"
+                        android:layout_width="match_parent"
+                        android:layout_height="500dp"
+                        android:layout_gravity="center_horizontal"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/details" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="15dp"
+                        android:padding="2dp"
+                        android:src="@drawable/ic_back"
+                        />
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="300dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="25dp"
+                        android:padding="2dp"
+                        android:src="@drawable/ic_icon" />
+                </RelativeLayout>
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-50dp"
+                    android:orientation="vertical">
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/item_card_background"
+                        android:orientation="vertical">
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtdetails"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="40dp"
+                            android:fontFamily="@font/sfprobold"
+                            android:text="Jenifer Jane"
+                            android:textColor="@color/black"
+                            android:textSize="18sp" />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtdetailsage"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="5dp"
+                            android:drawableStart="@drawable/ic_femenine"
+                            android:fontFamily="@font/regular"
+                            android:text="Female, 22"
+                            android:textColor="@color/text"
+                            android:textSize="14sp" />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@color/drawble"
+                            android:padding="20dp" />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/regular"
+                            android:padding="5dp"
+                            android:text="Location"
+                            android:textColor="@color/text"
+                            android:textSize="14sp" />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtdetailsloaction"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:drawableStart="@drawable/ic_map_marker"
+                            android:drawablePadding="5dp"
+                            android:padding="5dp"
+                            android:text="Santa Maria USA"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/regular"
+                            android:text="Description"
+                            android:textColor="@color/text"
+                            android:textSize="14sp" />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtdetailsdecription"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:fontFamily="@font/regular"
+                            android:padding="5dp"
+                            android:text="@string/lbl_description"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/regular"
+                            android:text="Hobbies"
+                            android:textColor="@color/text"
+                            android:textSize="14sp" />
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:orientation="horizontal">
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/btndtravel"
+                                android:layout_width="64dp"
+                                android:layout_height="30dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/item_button_back"
+                                android:backgroundTint="@color/lightyellow"
+                                android:text="Travel"
+                                android:textAllCaps="false"
+                                android:textColor="@color/yellow"
+                                android:textSize="14sp" />
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/btnddance"
+                                android:layout_width="68dp"
+                                android:layout_height="30dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/item_button_back"
+                                android:backgroundTint="@color/pich"
+                                android:text="Dance"
+                                android:textAllCaps="false"
+                                android:textColor="@color/seffron"
+                                android:textSize="14sp" />
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/btndfitness"
+                                android:layout_width="72dp"
+                                android:layout_height="30dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/item_button_back"
+                                android:backgroundTint="@color/babypink"
+                                android:text="Fitness"
+                                android:textAllCaps="false"
+                                android:textColor="@color/midpink"
+                                android:textSize="14sp" />
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:id="@+id/btndreading"
+                                android:layout_width="75dp"
+                                android:layout_height="30dp"
+                                android:layout_marginStart="15dp"
+                                android:layout_marginTop="10dp"
+                                android:background="@drawable/item_button_back"
+                                android:backgroundTint="@color/lightrani"
+                                android:text="Reading"
+                                android:textAllCaps="false"
+                                android:textColor="@color/rani"
+                                android:textSize="14sp" />
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <androidx.appcompat.widget.LinearLayoutCompat
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:orientation="horizontal">
+                                <androidx.appcompat.widget.AppCompatButton
+                                    android:id="@+id/btndphotograghy"
+                                    android:layout_width="105dp"
+                                    android:layout_height="30dp"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/item_button_back"
+                                    android:backgroundTint="@color/lightrani"
+                                    android:text="Photography"
+                                    android:textAllCaps="false"
+                                    android:textColor="@color/lightpink"
+                                    android:textSize="14sp" />
+                                <androidx.appcompat.widget.AppCompatButton
+                                    android:id="@+id/btndmusic"
+                                    android:layout_width="65dp"
+                                    android:layout_height="30dp"
+                                    android:layout_marginStart="15dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/item_button_back"
+                                    android:backgroundTint="#AFEEEE"
+                                    android:text="Music"
+                                    android:textAllCaps="false"
+                                    android:textColor="@color/green"
+                                    android:textSize="14sp" />
+                                <androidx.appcompat.widget.AppCompatButton
+                                    android:id="@+id/btndmovie"
+                                    android:layout_width="78dp"
+                                    android:layout_height="30dp"
+                                    android:layout_marginStart="15dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="@drawable/item_button_back"
+                                    android:text="Movie"
+                                    android:textAllCaps="false"
+                                    android:textColor="@color/purple"
+                                    android:textSize="14sp" />
+                            </androidx.appcompat.widget.LinearLayoutCompat>
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/regular"
+                            android:text="Language"
+                            android:textColor="@color/text"
+                            android:textSize="14sp" />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtdetailslanguage"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/regular"
+                            android:text="Cantonese, English"
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/regular"
+                            android:text="Self Description"
+                            android:textColor="@color/text"
+                            android:textSize="14sp" />
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="100dp">
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginBottom="20dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_video_girl" />
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_centerVertical="true"
+                                android:layout_marginStart="160dp"
+                                android:layout_marginTop="100dp"
+                                android:background="@drawable/item_video_background"
+                                android:padding="15dp"
+                                android:src="@drawable/ic_polygon_3" />
+                        </RelativeLayout>
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </ScrollView>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/white"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:orientation="horizontal">
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btndetaisfollow"
+                    android:layout_width="301dp"
+                    android:layout_height="70dp"
+                    android:backgroundTint="@color/pink"
+                    android:insetLeft="0dp"
+                    android:insetTop="0dp"
+                    android:insetRight="0dp"
+                    android:insetBottom="0dp"
+                    android:text="Follow"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    app:cornerRadius="0dp" />
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/item_wish_background"
+                    android:padding="11dp"
+                    android:src="@drawable/wish" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </com.google.android.material.card.MaterialCardView>
+</androidx.appcompat.widget.LinearLayoutCompat>
